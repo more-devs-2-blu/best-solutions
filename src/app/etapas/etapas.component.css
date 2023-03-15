@@ -1,0 +1,21 @@
+.tituloEtapas{
+  padding-left: 20px;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.textoEtapas {
+  padding-right: 10px;
+  padding-top: 40px;
+  font-size: 18px;
+  flex-basis: 50%;
+}
+
+.checksAbout{
+  padding-top: 22px;
+}
