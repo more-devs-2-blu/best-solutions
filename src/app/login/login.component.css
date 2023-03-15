@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+.col {
+    /* border: black solid 1px; */
+}
+
+#inicio {
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.texto-inicial {
+    padding: 15% 15%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 72px;
+    font-family: 'Roboto';
+    letter-spacing: -0.015em;
+    color: black;
+    transform: rotate(0.09deg);
+}
+
+.texto-inicial p {
+    padding: 10px 0;
+}
+
+.login {
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario {
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid rgba(145, 145, 145, 0.8);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.bt-pronto {
+    margin: auto;
+    text-align: center;
+}
+
+.titulo {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+
+    letter-spacing: -0.015em;
+
+    color: #000000;
+
+    transform: rotate(0.09deg);
+}
+
+.formulario div {
+    padding: 30px 0;
+}
+
+.titulo-formulario {
+    text-align: center;
+}
+
+.vantagens {
+    text-align: center;
+    margin: 5% 0;
+}
+
+.subtitulo {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: rgba(8, 54, 97, 1);
+}
+
+.imagem-vantagens{
+    width: 65px;
+    display: block;
+}
+
+.card-facilidades{
+    padding: 0 5% 5% 5%;
+}

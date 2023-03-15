@@ -13,6 +13,7 @@ import { AboutComponent } from './pages/about/about.component';
 // import { EtapasComponent } from './pages/etapas/etapas.component'
 
 
+import { NgForm } from '@angular/forms';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -20,6 +21,16 @@ import { ButtonModule } from 'primeng/button';
 import { AppRoutingModule } from './app-routing.module';
 import { EtapasComponent } from './etapas/etapas.component';
 import { CadastrarEmpresaComponent } from './cadastrar-empresa/cadastrar-empresa.component';
+import { LoginComponent } from './login/login.component';
+import { ChatbotComponent } from './chatbot/chatbot.component';
+import { DialogModule } from 'primeng/dialog';
+import { InputTextModule } from 'primeng/inputtext';
+import { InputNumberModule } from 'primeng/inputnumber';
+import { CardModule } from 'primeng/card';
+import { TooltipModule } from 'primeng/tooltip';
+import { ScrollPanelModule } from 'primeng/scrollpanel';
+import { FormsModule }   from '@angular/forms';
+import {PasswordModule} from 'primeng/password';
 
 @NgModule({
   declarations: [
@@ -30,9 +41,9 @@ import { CadastrarEmpresaComponent } from './cadastrar-empresa/cadastrar-empresa
     HomeComponent,
     AboutComponent,
     CadastrarEmpresaComponent,
-    EtapasComponent
-
-
+    EtapasComponent,
+    LoginComponent,
+    ChatbotComponent
   ],
   imports: [
     BrowserModule,
@@ -41,9 +52,17 @@ import { CadastrarEmpresaComponent } from './cadastrar-empresa/cadastrar-empresa
     MegaMenuModule,
     RouterModule,
     AppRoutingModule,
-    TableModule
+    TableModule,
+    DialogModule,
+    InputTextModule,
+    InputNumberModule,
+    CardModule,
+    TooltipModule,
+    ScrollPanelModule,
+    FormsModule,
+    PasswordModule
   ],
-  providers: [],
+  providers: [NgForm],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
