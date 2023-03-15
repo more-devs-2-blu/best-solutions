@@ -35,10 +35,6 @@ import {PasswordModule} from 'primeng/password';
     EtapasComponent,
     LoginComponent,
     ChatbotComponent
-    EtapasComponent,
-    TelaDeCadastroComponent
-
-
   ],
   imports: [
     BrowserModule,
