@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FooterComponent } from './footer.component';
+import { TelaDeCadastroComponent } from './tela-de-cadastro.component';
 
-describe('FooterComponent', () => {
-  let component: FooterComponent;
-  let fixture: ComponentFixture<FooterComponent>;
+describe('TelaDeCadastroComponent', () => {
+  let component: TelaDeCadastroComponent;
+  let fixture: ComponentFixture<TelaDeCadastroComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ FooterComponent ]
+      declarations: [ TelaDeCadastroComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(FooterComponent);
+    fixture = TestBed.createComponent(TelaDeCadastroComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
