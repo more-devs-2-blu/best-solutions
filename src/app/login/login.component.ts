@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NgForm } from '@angular/forms';
 
+
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -8,8 +9,14 @@ import { NgForm } from '@angular/forms';
 })
 export class LoginComponent {
 
+
+
   registrar(registro: NgForm) : void{
 
   }
+
+
+
+
 
 }

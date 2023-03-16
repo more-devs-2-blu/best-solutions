@@ -1,8 +1,9 @@
 <!-- Botão que abre a janela modal -->
+<div class="buttonChatbot">
 <button pButton pTooltip="Precisa de ajuda?" type="button"
     class="p-button p-button-outlined p-button-raised p-button-rounded" (click)="showDialog()"
     icon="pi pi-question"></button>
-
+  </div>
 <!-- Janela modal -->
 <p-dialog [breakpoints]="{'960px': '75vw', '640px': '100vw'}" position="top-right" [draggable]="false"
     [resizable]="false" [(visible)]="display" [style]="{width: '50%', height: '100%'}">

@@ -8,5 +8,14 @@ input::-webkit-inner-spin-button {
 input[type=number]{
     -moz-appearance: textfield;
     appearance: textfield;
-    
+
 }
+
+.buttonChatbot{
+  padding-left: 95%;
+  padding-bottom: 5px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+

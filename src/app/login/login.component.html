@@ -27,7 +27,7 @@
                             <p-password ngModel name="senha" [toggleMask]="true" [feedback]="false" required></p-password>
                         </div>
                         <div class="col-4 bt-pronto">
-                            <button type="submit" pButton [disabled]="registro.invalid" styleClass="p-button" label="PRONTO!" [ngStyle]="{backgroundColor:'var(--blue-900)'}"></button>
+                            <button type="submit" pButton [disabled]="registro.invalid" styleClass="p-button" label="PRONTO!" [ngStyle]="{backgroundColor:'var(--blue-900)'}" class="buttonLogin" routerLink="../pages/tela-de-cadastro"></button>
                         </div>
                     </div>
                 </form>

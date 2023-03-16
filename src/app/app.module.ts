@@ -1,4 +1,4 @@
-
+import { TelaDeCadastroComponent } from './pages/tela-de-cadastro/tela-de-cadastro.component';
 import { TableModule } from 'primeng/table';
 import { MegaMenuModule } from 'primeng/megamenu';
 import { RouterModule } from '@angular/router';
@@ -24,6 +24,8 @@ import { TooltipModule } from 'primeng/tooltip';
 import { ScrollPanelModule } from 'primeng/scrollpanel';
 import { FormsModule }   from '@angular/forms';
 import {PasswordModule} from 'primeng/password';
+import { ChecklistComponent } from './pages/checklist/checklist.component';
+
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import {PasswordModule} from 'primeng/password';
     CadastrarEmpresaComponent,
     EtapasComponent,
     LoginComponent,
-    ChatbotComponent
+    ChatbotComponent,
+    ChecklistComponent,
+    TelaDeCadastroComponent
   ],
   imports: [
     BrowserModule,
