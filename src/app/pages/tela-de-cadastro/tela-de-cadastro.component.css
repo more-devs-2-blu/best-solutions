@@ -22,6 +22,11 @@
   padding-top: 100px;
 
 }
+.titulo{
+  color: #0857A2;
+  font-weight: bold;
+  font-size: 20px;
+}
 
 .buttonTelaDeCadastro, .buttonChecklist{
   background-color: #0759a7;
@@ -36,5 +41,20 @@
 .buttonTelaDeCadastro:hover, .buttonChecklist:hover{
   background-color: #346594;
 }
-
+.espacamentoEsquerda{
+  margin-left: 35vh;
+  
+}
+.espacamentoEntre{
+  margin-left: 33.3vh;
+  
+}
+.espacamentoBotao{
+margin-left: 131vh;
+background-color: #346594;
+color: white;
+}
+.espacoBarra {
+  width:108vh;
+}
 
