@@ -1,6 +1,6 @@
 .tituloEtapas{
-  padding-left: 20px;
-  padding-top: 20px;
+  padding-left: 114px;
+  padding-top: 47px;
   font-weight: bold;
 }
 
@@ -18,4 +18,15 @@
 
 .checksAbout{
   padding-top: 22px;
+}
+
+.pi.pi-check{
+  color: blue;
+  font-weight:bold;
+}
+
+.buttonAcesse{
+  color: white;
+  opacity: 0;
+
 }
