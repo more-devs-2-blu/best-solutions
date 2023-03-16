@@ -10,7 +10,7 @@
     padding: 15% 15%;
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 72px;
     font-family: 'Roboto';
     letter-spacing: -0.015em;
@@ -30,7 +30,7 @@
 .formulario {
     margin-right: 10px;
     padding: 10px;
-    border: 1px solid rgba(145, 145, 145, 0.8);
+    border: none;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -48,11 +48,8 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 36px;
-
     letter-spacing: -0.015em;
-
     color: #000000;
-
     transform: rotate(0.09deg);
 }
 

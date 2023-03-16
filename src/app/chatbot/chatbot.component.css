@@ -19,3 +19,19 @@ input[type=number]{
   right: 0;
 }
 
+.p-button.p-button-outlined{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  justify-content: center;
+  margin-right: 10px;
+ 
+}
+
+.p-button.p-button-outlined:hover{
+  color: blue;
+}
+
+.icon{
+  transform: scale(2.2);
+}
