@@ -4,7 +4,7 @@
 A Equipe <b>Best Solutions</b> escolheu o Desafio C, fornecido pela Sedec Blumenau com a seguinte missão: Acelerar o processo de abertura de empresas.
 
 ## O Problema
-Atualmente o cadastro e abertura de empresas é muito complicado. Muitos usuários não consguem fazer o processo pela internet, pois o sistema é de dificil utilização e o processo é complexo, com um requisito de muitos documentos. Os cidadão que desejam abrir sua empresa acabam indo buscar ajuda na prefeitura de Blumenau, mas chegam lá despreparados, sem os documentos necessários. Isso demanda um numero maior de pessoas para fazer o atendimento ao publico e gera um desgaste ao cidadão que deseja abrir uma empresa.
+Atualmente o cadastro e abertura de empresas é muito complicado. Muitos usuários não conseguem fazer o processo pela internet, pois o sistema é de dificil utilização e o processo é complexo, com um requisito de muitos documentos. Os cidadões que desejam abrir sua empresa acabam indo buscar ajuda na prefeitura de Blumenau, mas chegam lá despreparados, sem os documentos necessários. Isso demanda um numero maior de pessoas para fazer o atendimento ao publico e gera um desgaste ao cidadão que deseja abrir uma empresa.
 
 ## A Solução
 Decidimos criar um site com o objetivo de auxiliar os usuários a criarem suas próprias empresas, oferecendo informações e recursos úteis para os diversos aspectos do processo de criação, sempre pensando na praticidade do usuário.
