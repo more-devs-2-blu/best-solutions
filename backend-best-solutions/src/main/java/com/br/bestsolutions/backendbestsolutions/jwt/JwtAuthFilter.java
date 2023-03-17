@@ -8,6 +8,7 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
 import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 import javax.servlet.FilterChain;
@@ -18,6 +19,7 @@ import java.io.IOException;
 
 
 @Component
+@CrossOrigin(origins = "*", maxAge = 3600)
 public class JwtAuthFilter extends OncePerRequestFilter {
 
 
@@ -31,6 +33,7 @@ public class JwtAuthFilter extends OncePerRequestFilter {
             throws ServletException, IOException {
 
         final String requestTokenHeader = request.getHeader("Authorization");
+        final String aaa = request.getHeader("Content-Type");
 
         String email = null;
         String jwtToken = null;

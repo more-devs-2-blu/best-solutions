@@ -25,7 +25,9 @@ public class Usuario implements UserDetails {
 
     //Questão da autenticação
     private String nome;
+    @Column(unique = true, nullable = false, updatable = false)
     private String email;
+    @Column(nullable = false)
     private String senha;
 
     //Dados cadastrais
@@ -38,18 +40,18 @@ public class Usuario implements UserDetails {
     private String naturezaJuridica;
     private String enquadramento;
     private String tipoTributacao;
-    private int capital;
+    private Integer capital;
     private String tipoServico;
     private String cep;
     private String estado;
     private String cidade;
     private String bairro;
     private String endereco;
-    private int numero;
+    private Integer numero;
     private String complemento;
     private String inscricaoIptu;
-    private float areaTotal;
-    private float areaImovel;
+    private Double areaTotal;
+    private Double areaImovel;
     private String cpfProprietario;
     private String situacaoCadastral;
     private String nomeSocios;

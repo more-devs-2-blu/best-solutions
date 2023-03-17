@@ -1,0 +1,58 @@
+.backgroundAbout{
+  height: 588px;
+
+}
+
+.conteudoAbout{
+  display: flex;
+  justify-content: stretch;
+  padding-top: 50px;
+
+}
+
+.imageAbout{
+  width: 50%;
+  height: 480px;
+  padding-top: 100px;
+}
+
+.tituloAbout{
+  padding-left: 20px;
+  padding-top: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+
+}
+
+.textoAbout{
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: 18px;
+}
+
+.checksAbout{
+  padding-top: 10px;
+
+}
+
+i {
+  font-size: 17px;
+  padding-right: 8px;
+}
+
+.buttonEtapas{
+  background-color: #083661;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border: none;
+
+}
+.buttonEtapas:hover{
+  background-color: #346594;
+}
+
+.buttonDiv{
+  padding-left: 20px;
+  padding-top: 5px;
+  }

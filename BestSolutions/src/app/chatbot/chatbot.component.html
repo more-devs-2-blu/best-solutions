@@ -1,0 +1,50 @@
+<!-- Botão que abre a janela modal -->
+<div class="buttonChatbot">
+    <button pButton pTooltip="Precisa de ajuda?" type="button"
+        class="p-button p-button-outlined p-button-raised p-button-rounded" (click)="showDialog()"><i
+            class="pi pi-comments icon"></i></button>
+</div>
+<!-- Janela modal -->
+<p-dialog [breakpoints]="{'960px': '75vw', '640px': '100vw'}" position="top-right" [draggable]="false"
+    [resizable]="false" [(visible)]="display" [style]="{width: '50%', height: '100%'}">
+
+    <!-- Cabeçalho da janela modal (botão de refresh e close)-->
+    <ng-template pTemplate="header">
+        <button pButton type="button" class="p-button-outlined p-button-rounded p-button-warning p-button-sm"
+            (click)="mensagens = []" icon="pi pi-refresh"></button>
+    </ng-template>
+
+    <!-- Corpo da janela modal (cards) -->
+    <p-scrollPanel #scrollPanelRef>
+        <!-- Adicionando a mensagem padrão com as perguntas pré cadastradas -->
+        <p-card header="~System" [style]="{width: '60%', margin: '10px 0'}">
+            <p>Digite o numero da pergunta que você deseja ver a resposta</p>
+            <p *ngFor="let pergunta of perguntas">{{pergunta.id}} - {{pergunta.pergunta}}</p>
+        </p-card>
+        <!-- Adicionando o histórico de perguntas do usuário e respostas do sistema -->
+        <p-card *ngFor="let mensagem of mensagens" header="~{{mensagem.dono}}"
+            [style]="{width: '60%', margin: (mensagem.dono == 'User') ? '10px 0 0 40%' : '10px 0 0 0'}">
+            <p *ngIf="mensagem.pergunta != null">{{mensagem.pergunta}}</p>
+            <p *ngIf="mensagem.resposta != null">{{mensagem.resposta}}</p>
+        </p-card>
+    </p-scrollPanel>
+
+    <!-- Footer da janela modal (input) -->
+    <ng-template pTemplate="footer">
+        <form #val_pesquisa="ngForm" (ngSubmit)="pesquisarResposta(val_pesquisa)">
+            <div class="grid p-fluid">
+                <div class="col-12 md:col-4">
+                    <div class="p-inputgroup">
+                        <span class="p-float-label">
+                            <input ngModel name="id" id="float-input" [style]="{apparence: 'textfield'}" type="number"
+                                pInputText required="true">
+                            <label for="float-input">Digite sua opção</label>
+                        </span>
+                        <button type="submit" pButton [disabled]="val_pesquisa.invalid" icon="pi pi-send"
+                            styleClass="p-button"></button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </ng-template>
+</p-dialog>

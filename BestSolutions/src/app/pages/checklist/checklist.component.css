@@ -1,0 +1,38 @@
+.barraAzul{
+  background-color: #083661;
+  width: 150px;
+  height: 571px;
+  color: white;
+  padding-top: 79px;
+  display: flex;
+  /* justify-content: center; */
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.flex{
+  display: flex;
+  justify-content: stretch;
+}
+
+.buttonTelaFlex{
+  padding-top: 100px;
+
+}
+
+.buttonTelaDeCadastro, .buttonChecklist{
+  background-color: #0759a7;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border: none;
+  font-size: 10px;
+
+}
+
+.buttonTelaDeCadastro:hover, .buttonChecklist:hover{
+  background-color: #346594;
+}

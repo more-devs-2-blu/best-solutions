@@ -45,8 +45,10 @@ public class UsuarioService {
 
     public void register(Usuario usuario) {
         usuarioRepository.save(usuario);
+    }
 
-
+    public Optional<Usuario> findByEmail(String email){
+        return usuarioRepository.findByEmail(email);
     }
 
     @Autowired
@@ -95,7 +97,7 @@ public class UsuarioService {
 
     }
     public void gerarPdf(String Responsavel,String RazaoSocial, String NomeFantasia, String Email, String NaturezaJuridica, String Enquadramento,
-                         String Cep, String Estado, String Cidade, String Bairro, String Endereco, int Numero, String Cnae, float AreaTotal) throws IOException {
+                         String Cep, String Estado, String Cidade, String Bairro, String Endereco, Integer Numero, String Cnae, Double AreaTotal) throws IOException {
         String entradaPdf = LocalDateTime.now().format(DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss"));
         String imgSrc = "Recursos//logo.jfif";
         ImageData data = ImageDataFactory.create(imgSrc);

@@ -1,0 +1,17 @@
+.backgroundHome{
+  background-image: url('/assets/background.jpg');
+  background-repeat: no-repeat;
+  background-size: 129%;
+  background-position: center;
+  height: 627px;
+}
+
+.tituloInicio{
+  color: white;
+  font-family: poppins;
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+  /* padding-bottom: 228px; */
+}

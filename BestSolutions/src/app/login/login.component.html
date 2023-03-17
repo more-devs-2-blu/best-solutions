@@ -1,0 +1,66 @@
+<div class="container-fluid" id="main">
+    <div class="row">
+        <div class="col col-6" id="inicio">
+            <div class="texto-inicial">
+                <p>Para iniciar o cadastro da sua empresa, basta preencher os dados ao lado:</p>
+                <p style="font-size: 32px; color: rgba(0, 0, 0, 0.8);">Não se preocupe! Além de super rápido e prático, o cadastro é gratuito.</p>
+            </div>
+        </div>
+        <div class="col col-6 login">
+            <div>
+                <form #registro="ngForm" (ngSubmit)="registrar(registro)">
+                    <div class="grid p-fluid formulario">
+                        <div class="col-12 md:col-4 titulo-formulario">
+                            <h1 class="titulo">Abrir empresa</h1>
+                        </div>
+                        <div class="col-12 md:col-4">
+                            <label for="nome">Nome Completo (Opcional)</label>
+                            <input name="nome" ngModel type="text" placeholder="João de Barro" pInputText>
+                        </div>
+                        <div class="col-12 md:col-4">
+                            <label for="email">E-mail (Obrigatório)</label>
+                            <input name="email" ngModel type="email" placeholder="joaodebarro@gmail.com" pInputText required>
+                        </div>
+                        <div class="col-12 md:col-4">
+                            <label for="senha">Senha (Obrigatório)</label>
+                            <!-- <input type="password" pPassword toggleMask="true"/> -->
+                            <p-password ngModel name="senha" [toggleMask]="true" [feedback]="false" required></p-password>
+                        </div>
+                        <div class="col-4 bt-pronto">
+                            <button type="submit" pButton [disabled]="registro.invalid" styleClass="p-button" label="PRONTO!" [ngStyle]="{backgroundColor:'var(--blue-900)'}" class="buttonLogin"></button>
+                            <!-- routerLink="../pages/tela-de-cadastro" -->
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col col-12" class="titulo vantagens">
+            <h1>Vantagens de usar a Best Solutions</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col col-4 card-facilidades">
+            <img src="../../assets/facilidade.png" alt="Facilidade" class="imagem-vantagens">
+            <span class="subtitulo">Facilidade</span>
+            <p>Suas ideias em realidade com a facilidade e agilidade de abrir uma empresa em poucos passos.</p>
+        </div>
+        <div class="col col-4 card-facilidades">
+            <img src="../../assets/seguranca.png" alt="Facilidade" class="imagem-vantagens">
+            <span class="subtitulo">Segurança</span>
+            <p>Abra sua empresa com confiança, respaldado por especialistas que garantem a segurança na abertura.</p>
+        </div>
+        <div class="col col-4 card-facilidades">
+            <img src="../../assets/apoio.png" alt="Facilidade" class="imagem-vantagens">
+            <span class="subtitulo">Apoio</span>
+            <p>Nosso chatbot e canais de comunicação estão sempre disponíveis para esclarecer todas as suas dúvidas e te guiar durante todo o processo.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col col-12 bt-pronto">
+            <button type="button" pButton styleClass="p-button" label="Abrir Empresa" [ngStyle]="{backgroundColor:'var(--blue-900)'}"></button>
+        </div>
+    </div>
+</div>
+<p-toast position="top-rigth" key="login-toast"></p-toast>

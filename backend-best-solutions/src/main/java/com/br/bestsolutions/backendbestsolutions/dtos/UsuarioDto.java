@@ -22,18 +22,18 @@ public class UsuarioDto implements Serializable {
     private String naturezaJuridica;
     private String enquadramento;
     private String tipoTributacao;
-    private int capital;
+    private Integer capital;
     private String tipoServico;
     private String cep;
     private String estado;
     private String cidade;
     private String bairro;
     private String endereco;
-    private int numero;
+    private Integer numero;
     private String complemento;
     private String inscricaoIptu;
-    private float areaTotal;
-    private float areaImovel;
+    private Double areaTotal;
+    private Double areaImovel;
     @CPF
     private String cpfProprietario;
     private String situacaoCadastral;
@@ -84,7 +84,7 @@ public class UsuarioDto implements Serializable {
         this.tipoTributacao = tipoTributacao;
     }
 
-    public void setCapital(int capital) {
+    public void setCapital(Integer capital) {
         this.capital = capital;
     }
 
@@ -112,7 +112,7 @@ public class UsuarioDto implements Serializable {
         this.endereco = endereco;
     }
 
-    public void setNumero(int numero) {
+    public void setNumero(Integer numero) {
         this.numero = numero;
     }
 
@@ -124,11 +124,11 @@ public class UsuarioDto implements Serializable {
         this.inscricaoIptu = inscricaoIptu;
     }
 
-    public void setAreaTotal(float areaTotal) {
+    public void setAreaTotal(Double areaTotal) {
         this.areaTotal = areaTotal;
     }
 
-    public void setAreaImovel(float areaImovel) {
+    public void setAreaImovel(Double areaImovel) {
         this.areaImovel = areaImovel;
     }
 
@@ -193,7 +193,7 @@ public class UsuarioDto implements Serializable {
         return tipoTributacao;
     }
 
-    public int getCapital() {
+    public Integer getCapital() {
         return capital;
     }
 
@@ -221,7 +221,7 @@ public class UsuarioDto implements Serializable {
         return endereco;
     }
 
-    public int getNumero() {
+    public Integer getNumero() {
         return numero;
     }
 
@@ -233,11 +233,11 @@ public class UsuarioDto implements Serializable {
         return inscricaoIptu;
     }
 
-    public float getAreaTotal() {
+    public Double getAreaTotal() {
         return areaTotal;
     }
 
-    public float getAreaImovel() {
+    public Double getAreaImovel() {
         return areaImovel;
     }
 
