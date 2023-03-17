@@ -26,6 +26,8 @@ import { FormsModule }   from '@angular/forms';
 import {PasswordModule} from 'primeng/password';
 import { ChecklistComponent } from './pages/checklist/checklist.component';
 import {ListboxModule} from 'primeng/listbox';
+import {MessageModule} from 'primeng/message';
+
 
 
 
@@ -58,7 +60,9 @@ import {ListboxModule} from 'primeng/listbox';
     ScrollPanelModule,
     FormsModule,
     PasswordModule,
-    ListboxModule
+    ListboxModule,
+    MessageModule
+
   ],
   providers: [NgForm],
   bootstrap: [AppComponent]

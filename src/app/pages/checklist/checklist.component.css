@@ -36,3 +36,29 @@
 .buttonTelaDeCadastro:hover, .buttonChecklist:hover{
   background-color: #346594;
 }
+
+.alert{
+  align-items: center;
+  padding-left: 10px;
+}
+
+.alerta{
+  padding-top: 20px;
+  padding-right: 7px;
+  font-weight: 500;
+}
+
+.comofunciona{
+  text-align: center;
+  padding-right: 115px;
+}
+
+.exemplo{
+  text-align: center;
+  padding-right: 119px;
+}
+
+.comofunciona, .exemplo, .titulo{
+  color: #083661;
+  font-weight: bold;
+}

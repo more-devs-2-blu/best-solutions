@@ -43,11 +43,11 @@
 }
 .espacamentoEsquerda{
   margin-left: 35vh;
-  
+
 }
 .espacamentoEntre{
   margin-left: 33.3vh;
-  
+
 }
 .espacamentoBotao{
 margin-left: 131vh;
@@ -58,3 +58,7 @@ color: white;
   width:108vh;
 }
 
+.tiposDeT{
+  padding-left: 60px;
+
+}
