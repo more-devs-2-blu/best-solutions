@@ -1,17 +1,98 @@
 .tituloEtapas{
   padding-left: 114px;
-  padding-top: 47px;
+  padding-top: 77px;
   font-weight: bold;
+  font-size: 60px;
+}
+
+.title{
+  font-size: 16px;
+  font-weight: bold;
+  color: #0857A2;
+
+}
+
+h5{
+  padding-left: 114px;
+  font-size: 30px;
+  padding-bottom: 40px;
+
+}
+
+li{
+  color: #0857A2;
+  width: 580px;
 }
 
 .container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.textoEtapas1 {
+  width: 50%;
+  padding-left: 25px;
+
+
+
+}
+
+.etapas-e-imagem-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+}
+
+
+.textoEtapas {
+  flex-grow: 1;
+
+}
+
+
+.list-group {
+  width: 60%;
+}
+.imagem-container {
+  /* float: right;
+  margin-right: 20px;
+   */
+
+   width: 50%; /* Alterado para usar o mesmo valor da largura máxima da imagem */
+   display: flex;
+   justify-content: center; /* Adicionado */
+   align-items: center; /* Adicionado */
+
+}
+
+.imagemEtapa {
+  width: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.imagemEtapa2 {
+  width: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .textoEtapas {
   padding-right: 10px;
-  padding-top: 40px;
+  padding-top: 60px;
   font-size: 18px;
   flex-basis: 50%;
 }
@@ -28,5 +109,13 @@
 .buttonAcesse{
   color: white;
   opacity: 0;
+
+}
+
+.iconesRedeSocial{
+  padding-left: 20px;
+}
+.iconesRedeSocial i {
+  font-size: 24px;
 
 }

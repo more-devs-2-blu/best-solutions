@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+
 @Component({
   selector: 'app-etapas',
   templateUrl: './etapas.component.html',
@@ -8,7 +9,6 @@ import { Component } from '@angular/core';
 
 
 export class EtapasComponent {
-
 
 
 }

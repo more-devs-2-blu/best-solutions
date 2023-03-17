@@ -25,6 +25,8 @@ import { ScrollPanelModule } from 'primeng/scrollpanel';
 import { FormsModule }   from '@angular/forms';
 import {PasswordModule} from 'primeng/password';
 import { ChecklistComponent } from './pages/checklist/checklist.component';
+import {ListboxModule} from 'primeng/listbox';
+
 
 
 @NgModule({
@@ -55,7 +57,8 @@ import { ChecklistComponent } from './pages/checklist/checklist.component';
     TooltipModule,
     ScrollPanelModule,
     FormsModule,
-    PasswordModule
+    PasswordModule,
+    ListboxModule
   ],
   providers: [NgForm],
   bootstrap: [AppComponent]
