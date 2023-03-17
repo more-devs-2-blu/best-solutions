@@ -22,6 +22,8 @@ h5{
 li{
   color: #0857A2;
   width: 580px;
+  background-color: white;
+  border: none;
 }
 
 .container {
@@ -35,8 +37,6 @@ li{
 .textoEtapas1 {
   width: 50%;
   padding-left: 25px;
-
-
 
 }
 
@@ -58,19 +58,14 @@ li{
 
 }
 
-
 .list-group {
   width: 60%;
 }
 .imagem-container {
-  /* float: right;
-  margin-right: 20px;
-   */
-
-   width: 50%; /* Alterado para usar o mesmo valor da largura máxima da imagem */
+   width: 50%;
    display: flex;
-   justify-content: center; /* Adicionado */
-   align-items: center; /* Adicionado */
+   justify-content: center;
+   align-items: center;
 
 }
 

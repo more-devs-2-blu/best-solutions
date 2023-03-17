@@ -2,8 +2,8 @@
     <div class="row">
         <div class="col col-6" id="inicio">
             <div class="texto-inicial">
-                <p>Para iniciar o cadastro da sua empresa, basta preencher os dados ao lado:</p>
-                <p style="font-size: 32px; color: rgba(0, 0, 0, 0.8);">Não se preocupe! Além de super rápido e prático, o cadastro é gratuito.</p>
+                <p>Para iniciar o cadastro da sua empresa, basta preencher os dados ao lado</p>
+                <p style="font-size: 20px; color: rgba(0, 0, 0, 0.8);">Não se preocupe! Além de super rápido e prático, o cadastro é gratuito</p>
             </div>
         </div>
         <div class="col col-6 login">
@@ -11,7 +11,7 @@
                 <form #registro="ngForm" (ngSubmit)="registrar(registro)">
                     <div class="grid p-fluid formulario">
                         <div class="col-12 md:col-4 titulo-formulario">
-                            <h1 class="titulo">Abrir empresa</h1>
+                            <h1 class="titulo">Cadastre-se:</h1>
                         </div>
                         <div class="col-12 md:col-4">
                             <label for="nome">Nome Completo (Opcional)</label>
@@ -46,19 +46,36 @@
             <p>Suas ideias em realidade com a facilidade e agilidade de abrir uma empresa em poucos passos.</p>
         </div>
         <div class="col col-4 card-facilidades">
-            <img src="../../assets/seguranca.png" alt="Facilidade" class="imagem-vantagens">
+            <img src="../../assets/seguranca.png" alt="Segurança" class="imagem-vantagens">
             <span class="subtitulo">Segurança</span>
             <p>Abra sua empresa com confiança, respaldado por especialistas que garantem a segurança na abertura.</p>
         </div>
         <div class="col col-4 card-facilidades">
-            <img src="../../assets/apoio.png" alt="Facilidade" class="imagem-vantagens">
+            <img src="../../assets/apoio.png" alt="Apoio" class="imagem-vantagens">
             <span class="subtitulo">Apoio</span>
             <p>Nosso chatbot e canais de comunicação estão sempre disponíveis para esclarecer todas as suas dúvidas e te guiar durante todo o processo.</p>
         </div>
     </div>
     <div class="row">
+      <div class="col col-4 card-facilidades">
+          <img src="../../assets/qualidade.png" alt="Qualidade" class="imagem-vantagens">
+          <span class="subtitulo">Qualidade</span>
+          <p>Nosso compromisso é oferecer a melhor qualidade em todos os quesitos para uma garantia de suasatisfação."</p>
+      </div>
+      <div class="col col-4 card-facilidades">
+          <img src="../../assets/flexibilidade.png" alt="Flexibilidade" class="imagem-vantagens">
+          <span class="subtitulo">Flexibilidade</span>
+          <p>Estamos comprometidos em ser flexíveis e adaptáveis às suas necessidades, sempre pensando na inovação.</p>
+      </div>
+      <div class="col col-4 card-facilidades">
+          <img src="../../assets/inovacao.png" alt="Inovação" class="imagem-vantagens">
+          <span class="subtitulo">Inovação</span>
+          <p>Estamos constantemente inovando e melhorando nossos serviços para oferecer soluções únicas e diferenciadas à você.</p>
+      </div>
+  </div>
+    <!-- <div class="row">
         <div class="col col-12 bt-pronto">
             <button type="button" pButton styleClass="p-button" label="Abrir Empresa" [ngStyle]="{backgroundColor:'var(--blue-900)'}"></button>
         </div>
-    </div>
+    </div> -->
 </div>
